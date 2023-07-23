@@ -33,7 +33,7 @@ const options = {
   },
 };
 
-const flatpickr = flatpickr('input#datetime-picker', options);
+const flatpickrResult = flatpickr('input#datetime-picker', options);
 startBtn.addEventListener('click', startTimer);
 
 function startTimer(event) {
