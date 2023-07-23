@@ -17,7 +17,7 @@ function startChangeColor(event) {
 }
 
 function stopChangeColor(event) {
-  clearInterval(changeColor);
+  clearInterval(changeColorId);
   startBtn.disabled = false;
   stopBtn.disabled = true;
 }
